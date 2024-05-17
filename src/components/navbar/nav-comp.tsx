@@ -29,7 +29,7 @@ const Navbar = () => {
             {/* Logo */}
             <div>
               <h1 className="font-bold text-2xl text-blue-900 dark:text-white">
-                <Link href="/">&/{"<nabil>"}/</Link>
+                <Link href="/">&/nabil/&</Link>
               </h1>
             </div>
 
