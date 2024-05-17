@@ -1,6 +1,7 @@
 import TypingEffect from "@/components/animation/typing-effect";
 import Navbar from "@/components/navbar/nav-comp";
 import Button from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,20 +26,20 @@ export default function Home() {
         </div>
       </div>
       <div className="dark:hidden  border-black flex">
-        <img
+        <Image
           className=""
           width={500}
           height={400}
-          src="./nabillagi2.png"
+          src="/nabillagi2.png"
           alt=""
         />
       </div>
       <div className="hidden dark:flex ">
-        <img
+        <Image
           className=""
           width={500}
           height={400}
-          src="./nabillagi1.png"
+          src="/nabillagi1.png"
           alt=""
         />
       </div>

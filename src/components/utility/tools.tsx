@@ -81,7 +81,7 @@ const Tools = () => {
           target="_blank"
           className="group mx-4 max-w-[70px] py-4 opacity-65 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
         >
-          <SiGithub className="w-16 h-16" color={isDarkMode ? 'white': 'black'} />
+          <SiGithub className="w-16 h-16" color={isDarkMode ? "white": "black"} />
           <span className="icon-skill absolute top-[5.5rem] -right-[0.1rem] scale-0 rounded bg-dark text-black dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
             GitHub
           </span>

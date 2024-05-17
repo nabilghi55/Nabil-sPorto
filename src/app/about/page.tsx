@@ -14,7 +14,7 @@ const AboutPage = () => {
           myself to the capacity of leadership, communication, creating
           websites, and programming project to participate in high level
           experience and personal relationships. Then, I want to help many
-          people and improve my skills. I'm currently interested in web
+          people and improve my skills. I am currently interested in web
           development, from UI/UX design to front-end and back-end development
           of websites. You can build full-stack websites using ReactJS,
           TailwindCSS, and Bootstrap for the frontend, NodeJS with the ExpressJS
