@@ -50,7 +50,7 @@ const Tools = () => {
 
     const isDarkMode = theme === "dark";
   return (
-    <div className="w-full -z-20 ">
+    <div className="w-full ">
       <div className="grid lg:grid-cols-4 grid-cols-3  gap-4  items-center justify-center">
         {/* HTML */}
         <a
