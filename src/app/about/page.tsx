@@ -2,32 +2,27 @@ import GithubCont from "@/components/github/github-cont";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Tools from "@/components/utility/tools";
+import Image from "next/image";
+import EducationSection from "@/components/education/education";
 
 const AboutPage = () => {
   return (
     <div className="lg:h-[85vh] lg:pt-32 pt-20  lg:w-full w-fit space-x-5   lg:flex text-blue-900 dark:text-white ">
       <div className="lg:w-1/2 ">
-        <h1 className="text-3xl font-bold  my-3 text-center">About Me</h1>
-        <p className="text-justify ">
-          My name is M Nabil Ghifari Monteswi, a student in the Faculty of
-          Computer Science at Brawijaya University. In general, I dedicated
-          myself to the capacity of leadership, communication, creating
-          websites, and programming project to participate in high level
-          experience and personal relationships. Then, I want to help many
-          people and improve my skills. I am currently interested in web
-          development, from UI/UX design to front-end and back-end development
-          of websites. You can build full-stack websites using ReactJS,
-          TailwindCSS, and Bootstrap for the frontend, NodeJS with the ExpressJS
-          framework, and PHP with the CodeIgniter and Laravel frameworks. You
-          can build full-stack websites using ReactJS, TailwindCSS, and
-          Bootstrap for the frontend, NodeJS with the ExpressJS framework, and
-          PHP with the CodeIgniter and Laravel frameworks.and Bootstrap for the
-          frontend, NodeJS with the ExpressJS framework, and PHP with the
-          CodeIgniter and Laravel frameworks. You can build full-stack websites
-          using ReactJS, TailwindCSS, and Bootstrap for the frontend, NodeJS
-          with the ExpressJS framework, and PHP with the CodeIgniter and Laravel
-          frameworks.
-        </p>
+        <div className="w-full">
+          <h1 className="text-3xl font-bold  my-3 text-center">About Me</h1>
+          <p className="text-justify ">
+            The Computer Science undergraduate student at Brawijaya University
+            is highly proficient in website and mobile development and has
+            strong skills in leadership, communication, and programming
+            languages such as Java, PHP, Dart and JavaScript. Proficient in
+            utilizing frameworks such as CodeIgniter, Flutter, Laravel, Next JS
+            and React.js, these individuals are actively involved in various
+            activities and organizations to prioritize personal growth,
+            cultivate networks, and pursue continuous self-improvement.
+          </p>
+        </div>
+        <EducationSection />
       </div>
       <div className="lg:w-1/2 ">
         <h1 className="text-3xl font-bold   my-3 text-center">Tools I Use</h1>

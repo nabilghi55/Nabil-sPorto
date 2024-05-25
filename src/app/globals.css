@@ -18,11 +18,66 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: white
+  background: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.grayscale-hover {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.grayscale-hover:hover {
+  filter: grayscale(0%);
+}
+.grayscale-hover::after {
+  filter: grayscale(0%);
+}
+@keyframes removeGrayscale {
+  0% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: grayscale(0%);
+  }
+}
+
+.grayscale-initial {
+  filter: grayscale(100%);
+}
+
+.remove-grayscale {
+  animation: removeGrayscale 2s forwards;
 }

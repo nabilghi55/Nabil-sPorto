@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex pt-20 lg:pt-0 lg:flex-row flex-col-reverse w-full lg:h-[85vh]  h-fit mx-auto   items-center ">
+    <div className="flex pt-20 w-11/12 lg:pt-0 lg:flex-row flex-col-reverse  lg:h-[85vh]  h-fit mx-auto  justify-between  items-center ">
       <div className="">
         <h1 className="text-3xl text-center lg:text-left font-bold text-blue-900 dark:text-gray-400">
           Hello Everyone 👋, i am
